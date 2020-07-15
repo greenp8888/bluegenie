@@ -1,12 +1,12 @@
 {
   "name": "webintern",
  "version": "0.0.1",
+   "main": "app.js",
    "private": true,
   "license": "Apache-2.0",
   "author": "Google Inc.",
   "description": "xx hope work",
  
-  "main": "app.js"
   
     "repository": {
     "type": "git",
