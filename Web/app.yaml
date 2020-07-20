@@ -12,7 +12,7 @@
 # limitations under the License.
 
 # [START gae_quickstart_yaml]
-runtime: nodejs12
+runtime: nodejs
 env: flex
 service: bluegene
 # [END gae_quickstart_yaml]
