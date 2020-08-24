@@ -45,12 +45,12 @@ app.post("/login/balance",function(req,res){
   .toArray(function(err, result) {
     if (err) throw err;
     // console.log(result.length)
-    if (result.length == 2 && querypassword == result[0].password) {
+    if (result.length == 2 && querypassword == result[1].password) {
     // console.log(result)
-    const percent = result[0].percent
-    const balance = result[1].balance//总的balance
-    const date = result[1].Date
-    const comment = result[1].Comment
+    const percent = result[1].percent
+    const balance = result[0].balance//总的balance
+    const date = result[0].Date
+    const comment = result[0].Comment
 
           const cashbalance = balance*percent
           //显示日期、用户余额和comment
